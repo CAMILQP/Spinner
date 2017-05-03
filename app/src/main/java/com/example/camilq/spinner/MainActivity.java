@@ -47,26 +47,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(MainActivity.this, "Nombre Seleccionado: " + String.valueOf(spinner.getSelectedItem()), Toast.LENGTH_SHORT).show();
-
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
             }
-
             {
-
             }
-
-
-
-
-
                                           }
-
         );
-
-
     }
 }
